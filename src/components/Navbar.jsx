@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="navbar-end gap-5">
         <img className='p-2 rounded-2xl bg-gray-100' src="/public/shopping-cart5.png" alt="" />
         <h3>Login</h3>
-        <h1 className="btn bg-blue-700 rounded-full text-white">Get Started</h1>
+        <h1 className="btn bg-blue-600 rounded-full text-white">Get Started</h1>
       </div>
     </div>
   );
