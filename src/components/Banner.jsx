@@ -1,5 +1,7 @@
 import React from 'react';
-import BannerImage from "../../public/1.banner.png";
+import groupimg from "../assets/Group 5.png"
+import bannerimg from "../assets/1.banner.png"
+import playimg from "../assets/3.Play.png"
 
 const Banner = () => {
     return (
@@ -7,8 +9,8 @@ const Banner = () => {
             <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
                 {/* Left Content */}
                 <div className="space-y-4">
-                    <div className="inline-flex items-center gap-2 bg-blue-500 border text-white text-sm font-medium px-5 py-2 rounded-full">
-                        <img src="/public/Group 5.png" alt="New: AI-Powered Tools Available" />
+                    <div className="inline-flex items-center gap-2 bg-blue-100 text-purple-600  px-5 py-2 rounded-full">
+                        <img src= {groupimg} alt="New: AI-Powered Tools Available" />
                         New: AI-Powered Tools Available
                     </div>
 
@@ -27,11 +29,11 @@ const Banner = () => {
                     </p>
 
                     <div className="flex flex-wrap gap-4 pt-4">
-                        <button className="bg-blue-600 hover:bg-blue-500 px-5 py-3 rounded-2xl font-semibold text-lg shadow-xl shadow-blue-400/30 flex items-center gap-3 group text-white">
+                        <button className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:bg-red-500 px-5 py-3 rounded-full font-semibold text-lg  flex items-center gap-3 group text-white">
                             Explore Products
                         </button>
-                        <button className=" bg-white hover:bg-gray-100  px-5 py-3 border border-b-blue-500 rounded-2xl font-semibold text-lg shadow-xl shadow-gray-300/30 flex items-center gap-3 group text-blue-500 ">
-                            <img className='' src="/public/3.Play.png" alt="" />Watch Demo
+                        <button className=" bg-white hover:bg-gray-100  px-5 py-3 border border-b-blue-500 rounded-full font-semibold text-lg  flex items-center gap-3 group text-purple-600 ">
+                            <img className='' src={playimg} alt="" />Watch Demo
                         </button>
                     </div>
                 </div>
@@ -41,9 +43,7 @@ const Banner = () => {
                     <div className="relative">
                         <img
                             className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl "
-                            src="/public/1.banner.png"
-                            alt=""
-                        />
+                            src={bannerimg} alt=""/>
                     </div>
                 </div>
             </div>
