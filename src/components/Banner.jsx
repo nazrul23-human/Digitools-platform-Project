@@ -5,7 +5,7 @@ import playimg from "../assets/3.Play.png"
 
 const Banner = () => {
     return (
-        <div className="relative min-h-162.5 flex items-center overflow-hidden">
+        <div className="relative min-h-162.5 flex items-center overflow-hidden md:flex">
             <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
                 {/* Left Content */}
                 <div className="space-y-4">
@@ -22,7 +22,7 @@ const Banner = () => {
                         </span>
                     </h1>
 
-                    <p className="text-lg text-zinc-700 max-w-lg">
+                    <p className="text-lg text-zinc-700 max-w-lg md:flex">
                         Access premium AI tools, design assets, templates,and productivity
                         software—all in one place. Start creating faster today.
                         Explore Products

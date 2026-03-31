@@ -1,12 +1,11 @@
 import React from 'react';
-import navbarImg from "../assets/DigiTools.png"
 import shoppimg from "../assets/shopping-cart5.png"
 const Navbar = () => {
     return (
         <div className="navbar">
       <div className="navbar-start">
-        <div className="flex items-center   rounded-full px-5 py-5 ">
-          <img className="w-30" src={navbarImg} /> 
+        <div className="flex items-center rounded-full px-5 py-5 ">
+          <h1 className='text-blue-700 font-bold text-3xl '>DigiTools</h1> 
         </div>
       </div>
       <div className="navbar-center hidden md:flex">
