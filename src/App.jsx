@@ -21,7 +21,7 @@ function App() {
 
       <StartedSection></StartedSection>
       <Pricing></Pricing>
-      {/* <Hero></Hero> */}
+      <Hero></Hero>
       {/* <Footer></Footer> */}
       
 
