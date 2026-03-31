@@ -22,7 +22,7 @@ function App() {
       <StartedSection></StartedSection>
       <Pricing></Pricing>
       <Hero></Hero>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       
 
     </>

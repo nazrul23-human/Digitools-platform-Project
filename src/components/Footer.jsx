@@ -100,7 +100,7 @@ const Footer = () => {
             <div>© {new Date().getFullYear()} Digitools. All rights reserved.</div>
 
             <div className="flex gap-6">
-              <a href="#" className="hover:text-red-400 transition">
+              <a href="#" className="hover:text-white transition">
                 Privacy Policy Terms of Service    Cookies
               </a>
             </div>
