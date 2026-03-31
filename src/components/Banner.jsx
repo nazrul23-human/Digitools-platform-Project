@@ -10,7 +10,7 @@ const Banner = () => {
                 {/* Left Content */}
                 <div className="space-y-4">
                     <div className="inline-flex items-center gap-2 bg-blue-100 text-purple-600  px-5 py-2 rounded-full">
-                        <img src= {groupimg} alt="New: AI-Powered Tools Available" />
+                        <img src={groupimg} alt="New: AI-Powered Tools Available" />
                         New: AI-Powered Tools Available
                     </div>
 
@@ -43,7 +43,7 @@ const Banner = () => {
                     <div className="relative">
                         <img
                             className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl "
-                            src={bannerimg} alt=""/>
+                            src={bannerimg} alt="" />
                     </div>
                 </div>
             </div>

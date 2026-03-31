@@ -19,8 +19,8 @@ function App() {
       <Rating></Rating>
 
 
-      {/* <StartedSection></StartedSection> */}
-      {/* <Pricing></Pricing> */}
+      <StartedSection></StartedSection>
+      <Pricing></Pricing>
       {/* <Hero></Hero> */}
       {/* <Footer></Footer> */}
       
