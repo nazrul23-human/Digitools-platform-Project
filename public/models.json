@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/q3VRNmcX/writing1-2327400-1.png",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 120,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10 templates", "Basic ATS optimization", "Export to PDF"],
+    "icon": "FaUser"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/Z1Bsw819/design2-tool.png",
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 90,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ templates", "Advanced ATS optimization", "Export to PDF"],
+    "icon": "FaBriefcase"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/RpCf7t4v/Group-7.png",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 200,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["100+ templates", "Full ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "FaCrown"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/605TpgR5/operation3.png",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 100,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited templates", "Team access", "Priority support"],
+    "icon": "FaBuilding"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/qLcXX7MK/portfolio4.png",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 60,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20 templates", "Basic ATS", "Export to PDF"],
+    "icon": "FaGraduationCap"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/jNr7pzy/social-media6.png ",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 160,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["All premium features", "Priority support", "Unlimited exports"],
+    "icon": "FaCalendar"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/q3VRNmcX/writing1-2327400-1.png ",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 130,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["All features", "Lifetime updates", "Premium support"],
+    "icon": "FaInfinity"
+  },
+  {
+    "id": 8,
+    "image": " https://i.ibb.co.com/RpCf7t4v/Group-7.png",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 150,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["30 templates", "Client proposal builder", "Export to PDF"],
+    "icon": "FaLaptopCode"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/605TpgR5/operation3.png ",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 80,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["80 templates", "Brand customization", "Team sharing"],
+    "icon": "FaChartLine"
+  },
+  {
+    "id": 10,
+    "image": " https://i.ibb.co.com/jNr7pzy/social-media6.png",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 170,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Everything included", "Dedicated support", "Early access features"],
+    "icon": "FaRocket"
+  }
+]
