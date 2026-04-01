@@ -1,13 +1,20 @@
 import React from 'react';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 
-const ModelCard = ({model, carts, setCarts}) => {
+const ModelCard = ({ model, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false)
 
     const handleBuyCart = () => {
         setIsBuy(true)
-        setCarts([...carts,model])
+        const isFound = carts.find(item => item.id === model.id)
+        if(isFound){
+            toast.error("Item already in cart!")
+            return
+        }
+        setCarts([...carts, model])
+        toast.success("Item added to cart!")
     }
     return (
         <div className='shadow-lg rounded-lg border overflow-hidden border-zinc-300'>

@@ -1,17 +1,26 @@
+import React from 'react';
 import shoppimg from "../assets/shopping-cart-01.png"
+import { toast } from 'react-toastify';
 const Cart = ({ carts, setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
 
     const handlePayment = () => {
-        setCarts([])
+        setCarts([]);
+        toast.success("Payment successful!")
+    };
+    const handleDelete = (item) => {
+        const filterArray = carts.filter(c => c.id !== item.id)
+     setCarts(filterArray)
+     toast.error("Item remove!")
     }
+
     return (
-        <div className='p-10'>
+        <div className='p-10 max-w-7xl mx-auto'>
             <h1 className="text-2xl font-bold">Your Cart</h1>
             {
                 carts.length === 0 ?
-                    <div className=" bg-gray-100 shadow-2xl rounded-lg mt-5 p-10 text-center ">
-                        <img className="w-10 h-10 ml-100   justify-center" src={shoppimg}></img>
+                    <div className=" bg-gray-100  rounded-lg mt-5 p-20 text-center ">
+                        <img className="ml-25 sm:ml-50 md:ml-85 lg:ml-125 w-10 h-10  justify-center" src={shoppimg}></img>
                         <p className="text-gray-500 font-bold text-3xl">Cart is empty</p>
 
 
@@ -35,8 +44,7 @@ const Cart = ({ carts, setCarts }) => {
                                             </h2>
                                         </div>
                                     </div>
-
-                                    <div className="text-[#FF3980]">Remove</div>
+                                    <button onClick={() => handleDelete(item)} className="text-[#FF3980]">Remove</button>
                                 </div>)
 
                             }

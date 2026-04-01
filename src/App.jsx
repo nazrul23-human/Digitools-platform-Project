@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import Models from './components/Models';
 import { useState } from 'react';
 import Cart from './components/Cart';
-import React from 'react';
 import { Suspense } from 'react';
 
 
@@ -22,48 +21,52 @@ const getModels = async () => {
 
 function App() {
   const modelPromise = getModels();
-  const [activeTab,setActiveTab] = useState("products")
-  const [carts,setCarts] = useState([])
-  
+  const [activeTab, setActiveTab] = useState("products")
+  const [carts, setCarts] = useState([])
+
   return (
     <>
-      {/* bg-gradient-to-r from-indigo-600 to-purple-600  */}
-      <Navbar></Navbar>
-      {/* <Banner></Banner>
-      <Rating></Rating> */}
-      {/* name of each tab group should be unique */}
-      <div className="tabs tabs-box justify-center bg-gray-200">
-        <input 
-        type="radio" 
-        name="my_tabs_1" 
-        className="tab rounded-2xl w-40 shadow-2xl border border-amber-300" 
-        aria-label="Products"
-        onClick={()=> setActiveTab("products")} 
-        defaultChecked/>
 
-        <input type="radio" 
-        name="my_tabs_1" 
-        className="tab rounded-2xl w-40 shadow-2xl border border-amber-300" 
-        aria-label="Cart"
-        onClick={()=> setActiveTab("cart")}/>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Rating></Rating>
+
+      <div className='text-center mt-20'>
+        <h1 className='text-4xl font-semibold '>Premium Digital Tools</h1>
+        <small className='text-gray-500'>Choose from our curated collection of premium digital products designed <br></br> to boost your productivity and creativity.</small>
+      </div>
+
+
+      <div className="tabs tabs-box justify-center bg-gray-200 mt-10">
+        <input
+          type="radio"
+          name="my_tabs_1"
+          className="tab rounded-2xl w-40 shadow-2xl border border-amber-300"
+          aria-label="Products"
+          onClick={() => setActiveTab("products")}
+          defaultChecked />
+
+        <input type="radio"
+          name="my_tabs_1"
+          className="tab rounded-2xl w-40 shadow-2xl border border-amber-300"
+          aria-label={`Cart (${carts.length})`}
+          onClick={() => setActiveTab("cart")} />
 
       </div>
 
 
-      
-     {activeTab === "products" && <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}> <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models></Suspense>}
-      
-      
-      
+
+      {activeTab === "products" && <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}> <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models></Suspense>}
+
+
+
       {activeTab === "cart" && <Cart carts={carts}
-      setCarts={setCarts}></Cart>}
+        setCarts={setCarts}></Cart>}
 
-
-
-      {/* <StartedSection></StartedSection>
+      <StartedSection></StartedSection>
       <Pricing></Pricing>
       <Hero></Hero>
-      <Footer></Footer> */}
+      <Footer></Footer>
 
 
     </>

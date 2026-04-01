@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-            
+
             <div className="md:col-span-5">
               <div className="flex items-center gap-3 mb-6">
 
