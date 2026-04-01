@@ -25,6 +25,4 @@ The platform is fully responsive and optimized for different devices. It feature
 Tools/products data can be fetched from external APIs, allowing dynamic and real-time content display.
 
 3.Dynamic Cart Management
-Users can add and manage selected tools in a cart system. It provides real-time updates, making it easy to track selected items and interact with them efficiently.
-
-
+Users can add and manage selected tools in a cart system. It provides real-time updates, making it easy to track selected items and interact with them efficiently. 
